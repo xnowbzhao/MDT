@@ -59,9 +59,14 @@ python train.py 20 240 80
 The models have been converted for single-GPU inference:
 https://1drv.ms/f/c/1345fa17d336f6c3/IgDmdh7vfjrTS4AzLi3lMsCwAS6tQRaHgN7d3-HDbe58NkU?e=XmRL0G
 
+## Notes
+
+1. This code is provided as a single-threaded implementation.
+2. AI tools were used solely to assist with code refactoring, performance optimization, documentation, and debugging during the open-source preparation process.
+3. The current denoising-time measurement is inaccurate and should not be used directly for performance evaluation. Please modify the timing code accordingly when benchmarking the algorithm's runtime.
+
 ## Acknowledgement
 The code is based on [GNF](https://github.com/bldeng/GuidedDenoising), If you use any of this code, please make sure to cite these works.
 
-AI tools were used only to assist with code refactoring, efficiency optimization, documentation, and debugging during the open-source preparation process.
 
 
