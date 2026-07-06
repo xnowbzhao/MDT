@@ -57,7 +57,7 @@ python train.py 20 240 80
 ## Pretrained models
 
 The models have been converted for single-GPU inference:
-[https://1drv.ms/f/c/1345fa17d336f6c3/IgDmdh7vfjrTS4AzLi3lMsCwAS6tQRaHgN7d3-HDbe58NkU?e=XmRL0G]
+https://1drv.ms/f/c/1345fa17d336f6c3/IgDmdh7vfjrTS4AzLi3lMsCwAS6tQRaHgN7d3-HDbe58NkU?e=XmRL0G
 
 ## Acknowledgement
 The code is based on [GNF](https://github.com/bldeng/GuidedDenoising), If you use any of this code, please make sure to cite these works.
