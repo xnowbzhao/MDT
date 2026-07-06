@@ -33,19 +33,19 @@ Synthetic\train\original -> strain
 Synthetic\test\noisy -> stest
 ```
 
-2, run the following commands for building training data.
+2, create folder "train", and run the following commands for building training data.
 
 ```
 ./TF-Gdata profile/s_i1/train.txt 20 240 2
 ```
 
-3, train with the dataset to obtain the model: 
+3, create folder "out/s", and train with the dataset to obtain the model: 
 
 ```
 python train.py 20 240 80
 ```
 
-4,  denoise:
+4, evaluation:
 
 ```
 ./TF-denoising profile/s_i1/test.txt 20 240 2
