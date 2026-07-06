@@ -67,9 +67,10 @@ if __name__ == '__main__':
 
     logfile.write('Total number of parameters: %d\n' % nparameters)
 
-    train_dataset=Loader("/home/xnozero/Desktop/mdt/train-re/02t00t00.bin",batch_size, 63, 3000000,patchsize,patchnumber, True)
-    #train_dataset=Loader("/media/xnozero/d/mit/train/02t00t00.bin",batch_size, 71, 2600000,patchsize,patchnumber, True)
-    #train_dataset=Loader("/media/xnozero/d/mit/train/02t00t00.bin",batch_size, 72, 900000,patchsize,patchnumber, True)
+    train_dataset=Loader("/home/xnozero/Desktop/mdt/train/02t00t00.bin",batch_size, 63, 3000000,patchsize,patchnumber, True) 
+    #train_dataset=Loader("/home/xnozero/Desktop/mdt/train/02t00t00.bin",batch_size, 71, 2600000,patchsize,patchnumber, True)  for v1
+    #train_dataset=Loader("/home/xnozero/Desktop/mdt/train/02t00t00.bin",batch_size, 72, 900000,patchsize,patchnumber, True)   for v2
+    
     
     train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, num_workers=8, shuffle=True)
 
