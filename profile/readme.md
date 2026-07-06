@@ -16,7 +16,7 @@ strain/bust_n2.obj
 strain/bust_n3.obj
 ...
 train/02t00t00.bin     <- Path and name of LSD files
-
+```
 
 # The structure of s_i1/test.txt
 ```
