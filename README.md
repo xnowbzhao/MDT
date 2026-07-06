@@ -62,3 +62,6 @@ https://1drv.ms/f/c/1345fa17d336f6c3/IgDmdh7vfjrTS4AzLi3lMsCwAS6tQRaHgN7d3-HDbe5
 ## Acknowledgement
 The code is based on [GNF](https://github.com/bldeng/GuidedDenoising), If you use any of this code, please make sure to cite these works.
 
+AI tools were used only to assist with code refactoring, efficiency optimization, documentation, and debugging during the open-source preparation process.
+
+
