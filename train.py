@@ -42,8 +42,8 @@ if __name__ == '__main__':
     optimizer = optim.Adam(model.parameters(), lr=1e-4)
     trainer = Trainer(model, optimizer, device=device)
 
-    out_dir = 'out/s-re/'
-    logfile = open('out/s-re/log.txt','a')
+    out_dir = 'out/s/'
+    logfile = open('out/s/log.txt','a')
     
     checkpoint_io = CheckpointIO(out_dir, model=model, optimizer=optimizer)
 
