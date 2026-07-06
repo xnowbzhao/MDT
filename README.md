@@ -1,6 +1,6 @@
 # MDT
 
-Mesh denoising transformer
+Mesh Denoising Transformer
 
 ## Environment
 
