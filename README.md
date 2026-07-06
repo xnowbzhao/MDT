@@ -3,6 +3,8 @@
 Mesh denoising transformer
 
 ## Environment
+
+```
 openmesh 8.1
 eigen
 tqdm
@@ -10,6 +12,7 @@ numpy
 pyyaml
 tensorboardX
 einops
+```
 
 ## Compilation
 
